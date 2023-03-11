@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#navbar{
+    position: sticky ! important;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    background: black;
+}
+.navbar .navbar-brand{
+    font-size:30px;
+    font-weight: 800;
+    color:orange !important;
+}
+#navbarSupportedContent a{
+    color: white;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+border-bottom: 2px solid orange;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+justify-content: center;
+align-items: center;
+transition: 1sc;
+}
+/****home****/
+#home{
+    background: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.4)),url(webweb.jpg);
+    background-size: cover;
+    background-position:center;
+}
+#about{
+
+    align-items:center;
+    background : #dd2861;
+}
+#about.h3{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-style: normal;
+   font-weight: 800;
+   font-display: center;
+   color: white;}
+   
+#skills{display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel{
+box-shadow: 10px 20px 10px rgba(0,0,0,.4);
+}
